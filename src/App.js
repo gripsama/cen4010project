@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import FetchApi from './FetchApi';
 
 function App() {
   return (
     <div className="App">
+
+<FetchApi/>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
